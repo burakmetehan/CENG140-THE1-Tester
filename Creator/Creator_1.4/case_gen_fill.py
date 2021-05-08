@@ -21,7 +21,7 @@ for file_no in range(case_number):
 			case.write(" ".join(choices(colors, k=N)))
 			case.write("\n")
 
-		case.write("F\n)
+		case.write("F\n")
 		color_coor = [choose_coor_color(), choose_coor_color()]
 		pixel_coor = [choose_coor_pixel(), choose_coor_pixel()]			
 		case.write(" ".join(color_coor))
