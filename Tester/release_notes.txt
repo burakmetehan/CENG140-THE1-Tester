@@ -21,3 +21,15 @@ The last print is changed.
 Tester_1.4.1:
 Some test cases are changed in order to add edge cases.
 
+Tester_1.5:
+tester.py is changed. The old getting result and ouput and checking algorithms replaced new ones. The reason is to increase readability of the code.
+The showing of percentage of process is changed a little. The frequency is increased of printing.
+The final messages are changed.
+If there is/are errors, now a file is created named as "errors.txt" instead of printing the errors.
+
+Tester_1.6:
+Tester is now showing: 
+	Tester's Total Execution Time
+	Code's Total Execution Time
+	Code's Average Execution Time:
+
